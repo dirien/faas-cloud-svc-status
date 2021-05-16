@@ -1,0 +1,14 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: https://faasd.ediri.online
+functions:
+  faas-cloud-svc-status:
+    lang: golang-http
+    handler: ./faas-cloud-svc-status
+    image: dirien/faas-cloud-svc-status:0.0.1
+    build_args:
+      GO111MODULE: auto
+configuration:
+  templates:
+    - name: golang-http
