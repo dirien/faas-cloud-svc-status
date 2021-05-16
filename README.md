@@ -1,5 +1,5 @@
 # Faasd Example function (golang)
-This is a exampl e function for the faasd and JAMstack installion i recently build.
+This is an example function for the faasd and JAMstack Stack I recently build and deployed.
 
 The idea of the function is tho get the status of different cloud services.
 
